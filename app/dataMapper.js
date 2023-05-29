@@ -16,6 +16,14 @@ const dataMapper = {
         };
         const result = await database.query(query)
         return result.rows;
+    },
+
+    getTypes : async () => {
+        const query = {
+            text: 'SELECT * from type',
+        };
+        const result = await database.query(query)
+        return result.rows;
     }
 }
 

@@ -143,17 +143,16 @@ header a {
 }
 
 
-.pokemon__stats__type{
+.pokemon__stats__type__container{
     display: flex;
     margin-right: 2px;
 }
 
-.pokemon__stats__type > span{
+.pokemon__stats__type__container > span{
     margin-left: 5px;
 }
 
-.Feu {
-    background-color: #FF4422;
+.pokemon__stats__type{
     color: #ffffff;
     border-radius: 15px;
     padding: 2px;
@@ -162,163 +161,71 @@ header a {
     font-size: 0.9em;
 }
 
+.Feu {
+    background-color: #FF4422;
+}
+
 .Plante {
     background-color: #77CC55;
-    color: #ffffff;
-    border-radius: 15px;
-    padding: 4px;
-    width: 19%;
-    text-align: center;
-    font-size: 0.9em;
 }
 
 .Poison {
     background-color: #AA5599;
-    color: #ffffff;
-    border-radius: 15px;
-    padding: 4px;
-    width: 19%;
-    text-align: center;
-    font-size: 0.9em;
 }
 
 .Acier {
     background-color: #AAAABB;
-    color: #ffffff;
-    border-radius: 15px;
-    padding: 4px;
-    width: 19%;
-    text-align: center;
-    font-size: 0.9em;
 }
 
 .Combat {
     background-color: #BB5544;
-    color: #ffffff;
-    border-radius: 15px;
-    padding: 4px;
-    width: 19%;
-    text-align: center;
-    font-size: 0.9em;
 }
 
 .Dragon {
     background-color: #7766EE;
-    color: #ffffff;
-    border-radius: 15px;
-    padding: 4px;
-    width: 19%;
-    text-align: center;
-    font-size: 0.9em;
 }
 
 .Glace {
     background-color: #77DDFF;
-    color: #ffffff;
-    border-radius: 15px;
-    padding: 4px;
-    width: 19%;
-    text-align: center;
-    font-size: 0.9em;
 }
 
 .Eau {
     background-color: #3399FF;
-    color: #ffffff;
-    border-radius: 15px;
-    padding: 4px;
-    width: 19%;
-    text-align: center;
-    font-size: 0.9em;
 }
 
 .Électrik {
     background-color: #FFBB33;
-    color: #ffffff;
-    border-radius: 15px;
-    padding: 4px;
-    width: 19%;
-    text-align: center;
-    font-size: 0.9em;
 }
 
 .Insecte {
     background-color: #AABB22;
-    color: #ffffff;
-    border-radius: 15px;
-    padding: 4px;
-    width: 19%;
-    text-align: center;
-    font-size: 0.9em;
 }
 
 .Psy {
     background-color: #FF5599;
-    color: #ffffff;
-    border-radius: 15px;
-    padding: 4px;
-    width: 19%;
-    text-align: center;
-    font-size: 0.9em;
 }
 .Normal {
     background-color: #BBAABB;
-    color: #ffffff;
-    border-radius: 15px;
-    padding: 4px;
-    width: 19%;
-    text-align: center;
-    font-size: 0.9em;
 }
 
 .Roche {
     background-color: #BBAA66;
-    color: #ffffff;
-    border-radius: 15px;
-    padding: 4px;
-    width: 19%;
-    text-align: center;
-    font-size: 0.9em;
 }
 
 .Sol {
     background-color: #DDBB55;
-    color: #ffffff;
-    border-radius: 15px;
-    padding: 4px;
-    width: 19%;
-    text-align: center;
-    font-size: 0.9em;
 }
 
 .Spectre {
     background-color: #6666BB;
-    color: #ffffff;
-    border-radius: 15px;
-    padding: 4px;
-    width: 19%;
-    text-align: center;
-    font-size: 0.9em;
 }
 
 .Ténèbres {
     background-color: #665544;
-    color: #ffffff;
-    border-radius: 15px;
-    padding: 4px;
-    width: 19%;
-    text-align: center;
-    font-size: 0.9em;
 }
 
 .Vol {
     background-color: #6699FF;
-    color: #ffffff;
-    border-radius: 15px;
-    padding: 4px;
-    width: 19%;
-    text-align: center;
-    font-size: 0.9em;
 }
 
 .pokemon__stats__progress {
@@ -334,4 +241,37 @@ progress {
 
 .stats_left {
     width: 20%;
+}
+
+.types__page {
+    margin: 1%;
+}
+
+.types__page__title{
+    color: #ffffff;
+    margin-left: 1%;
+    margin-top: 5%;
+}
+
+.types__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    gap: 15px;
+}
+
+.type {
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.type > a {
+    text-decoration: none;
+    color: #ffffff;
 }

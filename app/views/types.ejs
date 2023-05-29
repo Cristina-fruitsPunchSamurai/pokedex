@@ -1,0 +1,19 @@
+<%- include('partials/header') %>
+<div class="types__page">
+<p class="types__page__title"> Cliquez sur un type pour voir tous les Pokémon de ce type </p>
+<div class="types__container">
+    <% pokemonTypes.forEach(type => {%>
+            <p class="type <%= type.name %>">
+                <a href="/type/<%= type.id %>">
+                <%= type.name %>
+                </a>
+            </p>
+   <%})%>
+
+</div>
+</div>
+
+</main>
+</body>
+
+</html>
